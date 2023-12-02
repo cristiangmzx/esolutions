@@ -21,9 +21,9 @@ body {
 
 #calc {
     display: inline-block;
-    margin: 15px 5vw; /* Utilizamos vw en lugar de px para el margen horizontal */
+    margin: 15px; /* Utilizamos vw en lugar de px para el margen horizontal */
     padding: 15px;
-    font-size: 2vw; /* Utilizamos vw para el tamaño de fuente */
+    font-size: 28px; /* Utilizamos vw para el tamaño de fuente */
     color: #f5f9ff;
     background-color: #458af9;
     border-radius: 10px;
