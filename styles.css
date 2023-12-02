@@ -1,0 +1,131 @@
+body {
+    background-image:url('resources/bg2.svg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 1080px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e3ecfa;
+    
+}
+
+/* Estilos para el encabezado */
+#header {
+    font-size: 35px;
+    color: #f5f9ff;
+    margin: 10px 0;
+    padding: 30px;
+    background: #458af9;
+}
+
+
+#calc {
+    display: inline-block;
+    margin: 15px 5vw; /* Utilizamos vw en lugar de px para el margen horizontal */
+    padding: 15px;
+    font-size: 2vw; /* Utilizamos vw para el tamaño de fuente */
+    color: #f5f9ff;
+    background-color: #458af9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para el formulario */
+form {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f7ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+/* Estilos para etiquetas */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilos para entradas */
+input {
+    display: block;
+    height: 28px;
+    margin: 18px auto;
+    margin-bottom: 20px;
+}
+
+/* Estilos para select */
+select {
+    display: block;
+    height: 25px;
+    margin: 15px;
+}
+
+/* Estilos para el botón "Calcular" */
+button {
+    background-color: #458af9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    /* Alineación horizontal con etiquetas e inputs */
+    margin-right: 10px;
+}
+
+/* Estilo del botón 3D en color azul cielo */
+.css-button-3d--sky {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #458af9;
+    box-shadow: 0 5px #5344fb;
+}
+
+.css-button-3d--sky:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+
+.css-button-3d--sky:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+
+
+/* Estilos para el resultado */
+#resultados{
+    display: none;
+    margin: 20px 25vw;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+
+}
+
+/* Estilos para el div que contiene la etiqueta y el select */
+#selectContainer {
+    display: inline-block;
+    margin: 0;
+    /* Ajusta el margen según tus preferencias */
+}
+
+#selectOption {
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+}

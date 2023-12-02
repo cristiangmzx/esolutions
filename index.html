@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Encabezado del documento -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Enlace al archivo de estilos externo -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Encabezado principal -->
+  <h1 id="header">ESolutions</h1>
+  <h1 id="calc">Calculadora de Dilución</h1>
+  <section>
+    <form id="calculatorForm">
+      <!-- Etiqueta y select para elegir una opción -->
+      <label for="selectOption">Elige una opción:</label>
+      <select id="selectOption" name="selectOption">
+        <!-- Opciones para Ci, Cf, Vi y Vf -->
+        <option value="ci">Ci (Concentración Inicial)</option>
+        <option value="cf">Cf (Concentración Final)</option>
+        <option value="vi">Vi (Volumen Inicial)</option>
+        <option value="vf">Vf (Volumen Final)</option>
+      </select>
+      <!-- Etiquetas e inputs para Ci, Cf, Vi y Vf -->
+      <label for="ci">Ci (Concentración Inicial)</label>
+      <input type="text" id="ci" name="ci" placeholder="M" autocomplete="off">
+      <label for="cf">Cf (Concentración Final)</label>
+      <input type="text" id="cf" name="cf" placeholder="M" autocomplete="off">
+      <label for="vi">Vi (Volumen Inicial)</label>
+      <input type="text" id="vi" name="vi" placeholder="L" autocomplete="off">
+      <label for="vf">Vf (Volumen Final)</label>
+      <input type="text" id="vf" name="vf" placeholder="L" autocomplete="off">
+      <!-- Botón para realizar el cálculo -->
+      <button class="css-button-3d--sky">Calcular</button>
+      <button class="css-button-3d--sky" type="reset">Resetear</button>
+    </form>
+    <!-- Resultado del cálculo dentro del formulario -->
+    <div id="resultados">
+      <p id="result"></p>
+      <p id="result1"></p>
+    </div>
+  </section>
+  <!-- Enlace al archivo JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+
+</html>
